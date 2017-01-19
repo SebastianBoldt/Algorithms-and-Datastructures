@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Data-Structures.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Compression-Algortihms.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Searching-Algorithms.playground">
+   </FileRef>
+   <FileRef
+      location = "group:String-Search-Algorithms.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Sort-Algorithms.playground">
+   </FileRef>
+</Workspace>
