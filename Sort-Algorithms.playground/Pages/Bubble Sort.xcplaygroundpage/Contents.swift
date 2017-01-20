@@ -38,9 +38,7 @@ extension Array where Element : Comparable {
             return
         }
         
-        let valueAtFirstIndex = self[index1]
-        self[index1] = self[index2]
-        self[index2] = valueAtFirstIndex
+        (self[index1],self[index2]) = (self[index2],self[index1])
     }
     
     // Return Swap Count
@@ -67,7 +65,7 @@ var array = [1,2,3]
 try! array.swap(objectAtIndex: 0, withObjectAtIndex: 2)
 array
 
-// Lets sort some arrays 
+// Lets sort some arrays
 // We create 50 arrays which are sorted the wrong direction
 // Lets see how much swaps we need at each of them?
 
@@ -76,6 +74,7 @@ for length in 2...50 {
     var intArray: [Int] = (0...length).map({ $0 })
     var reversedArray = Array(intArray.reversed())
     swaps = try reversedArray.bubbleSort()
+    print(reversedArray)
 }
 
 
