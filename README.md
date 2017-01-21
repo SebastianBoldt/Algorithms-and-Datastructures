@@ -3,12 +3,10 @@
 
 I use Swift playgrounds and the timeline feature to visualize the Big O complexity of all the algorithms etc. to get a better understanding of them
 
-## Sorting Algorithms
+## Sorting
 
 ✅ Bubble Sort
-
-... to be continued 
-
-## Searching Algorithms
+ 
+## Searching
 
 ✅ Binary Search
