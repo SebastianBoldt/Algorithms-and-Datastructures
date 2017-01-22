@@ -12,3 +12,8 @@ I use Swift playgrounds and the timeline feature to visualize the Big O complexi
 ## Searching Algorithms
 
 ✅ Binary Search
+
+## Data Structures 
+
+✅ Stack
+✅ Queue
